@@ -3,6 +3,18 @@ body {
     font-family: 'Indie Flower', cursive;
 }
 
+.btn {
+    border-radius: 40%;
+    width: 130px;
+}
+.continent-col {
+    background-color: purple;
+}
+.continent-col > h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
 .header-img {
     width: 220px;
     border-radius: 50%;
@@ -19,11 +31,19 @@ body {
 #where-to {
     margin-left: 50px;
 }
-.country-tiles > li {
-    background-color: #f5f4f2;
-    border-radius: 30%;
-    list-style-type: none;
-    display: inline;
-    padding: 5px 20px 5px 5px;
-    text-align: center;
+
+
+.homepage-country {
+    display: inline-block;
+}
+
+
+
+.country-tiles-img {
+    width: 20px;
+    margin: 5px;
+}
+
+.navbar {
+    font-family: 'Courier New', Courier, monospace;
 }
