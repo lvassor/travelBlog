@@ -1,0 +1,14 @@
+{
+  "name": "travelblog",
+  "version": "1.0.0",
+  "description": "This is the source code for the Hike Eat Fly Eat travel blog.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luke Vassor",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
