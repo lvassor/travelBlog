@@ -26,6 +26,14 @@ app.get("/countries/philippines", function(req, res){
     res.sendFile(path.join(__dirname, "public", "pages", "countries", "philippines", "philippines.html"));
 });
 
+app.get("/countries/srilanka", function(req, res){
+    res.sendFile(path.join(__dirname, "public", "pages", "countries", "sriLanka", "sriLanka.html"));
+});
+
+app.get("/countries/srilanka/twoweek", function(req, res){
+    res.sendFile(path.join(__dirname, "public", "pages", "countries", "sriLanka", "sriLankaTwoWeek.html"));
+});
+
 app.listen(3000, function(){
     console.log("Listening on port 3000");
 });

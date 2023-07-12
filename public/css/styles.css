@@ -85,7 +85,7 @@ body {
 }
 
 /* COUNTRY PAGE */
-.country-header-img {
+.circle-header-img {
     height: 300px;
     width: 300px;
     object-fit: cover;
@@ -94,6 +94,14 @@ body {
     margin: -50px 50px 50px 50px;
 }
 
+.banner-header-img {
+    height: 500px;
+    float: right;
+    object-fit: cover;
+    border-radius: 100%;
+    position: absolute;
+    right: -300px;
+}
 /* PHILIPPINES */
 .article-preview {
     background-size: 250px 300px;
@@ -138,4 +146,22 @@ body {
 }
 #siquijor-preview {
     background-image: url("https://images.pexels.com/photos/14634010/pexels-photo-14634010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")
+}
+
+/* SRI LANKA */
+
+#lanka-preview {
+    background-image: url("https://media.cnn.com/api/v1/images/stellar/prod/191029145109-sri-lanka-tourism-images-sigiriya-03-1.jpg?q=w_1600,h_901,x_0,y_0,c_fill/w_1280");
+}
+
+/* ARTICLE */
+.article-header {
+    padding: 5px;
+}
+
+.page-links > *{
+    display: block;
+}
+.page-links {
+    margin: 30px;
 }
